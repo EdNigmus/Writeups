@@ -19,12 +19,12 @@
 
   - ### `No Limit Secu`
        -> Cyber Guerre : https://www.nolimitsecu.fr/cyber-guerre/ <br>
-       - https://fr.wikipedia.org/wiki/Attaque_par_d%C3%A9ni_de_service
+      - https://fr.wikipedia.org/wiki/Attaque_par_d%C3%A9ni_de_service
       - https://www.clubic.com/avira/dossier-415185-qu-est-ce-qu-un-malware-de-type-wiper.html<br>
       - https://fr.wikipedia.org/wiki/Petya <br>
       - https://fr.wikipedia.org/wiki/Killnet<br>
   
-      C'est Microsoft qui averti le gouvernement Américain via un wiper -> https://fr.wikipedia.org/wiki/Wiper
+      C'est Microsoft qui avertit le gouvernement Américain via un wiper -> https://fr.wikipedia.org/wiki/Wiper
   
        -> Aspect juridiques : https://www.nolimitsecu.fr/pentest-aspects-juridiques/
 
