@@ -145,6 +145,9 @@ Donc la valeur aléatoire maximum étant 1 000 000 - la valeur du champ caché q
 
 ![Jeu : départ](./imgs/ChalRootMe_modif.jpg)
 
+- Retourner sur la page du challenge et coller le Flag dans la zone de saisie pour réussir le challenge.
+
+![Jeu : départ](./imgs/GoodChallenge.jpg)
 
 
 
@@ -160,4 +163,4 @@ Donc la valeur aléatoire maximum étant 1 000 000 - la valeur du champ caché q
 
 
 
-TchatGPT : https://chatgpt.com/c/bc5bb0de-f2fa-4a38-b38f-4a1efa52bc86
+
