@@ -1,11 +1,23 @@
 # Root Me Challenge
 https://www.root-me.org/fr/Challenges/Web-Serveur/HTTP-POST
 
-<hr>
+<hr><br>
 
-## Objectif  : **Trouver une façon de battre le meilleur score**
+## [ SOMMAIRE ]
+
+- [Objectif du challenge](#Synopsis).
+  - _Que se passe t'il en cliquant sur le bouton ?._
+  - _Protocol HTTP et méthode POST_
+- [Explications du code lié au bouton](#méthodologie).
+- [Fonctionnement du code](#fonctionnement-du-code).
+- [Conclusion et **Hack** du code](#conclusion).
+
+<hr>
+<br>
+
+## Objectif du challenge : **Trouver une façon de battre le meilleur score**
   
-### Synopsys :  
+### <a name="Synopsis">Synopsis</a> :  
 
 > Pour lancer le jeu on clique sur le bouton **`Give a try !`**.
 Si l'on fait moins que le meilleur score **`999999`** on perd. Le but étant de battre ce score...
