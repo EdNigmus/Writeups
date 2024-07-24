@@ -37,6 +37,9 @@ Si l'on fait moins que le meilleur score **`999999`** on perd. Le but étant de 
 #### POST
 > Le type ou la méthode ici est **POST**. La méthode POST est utilisée pour transmettre des données en vue d'un traitement à une ressource (le plus souvent un formulaire HTML). 
 - _Il existe aussi la méthode GET qui via une requête visible dans l'URL(_Uniform Ressource Locator_). permet par exemple d'accèder à d'autres pages d'un site._
+  ```
+  Faire un teste avec l'inspecteur dans le navigateur sur votre page, en changeant la méthode "POST" EN "GET"; Observer ensuite votre URL.
+  ```
 
 - https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/#c251633
  
@@ -143,7 +146,7 @@ document.getElementsByName('score')[0].value = Math.floor(Math.random() * 100000
 - **.value** : Accède à la valeur de cet élément.
 - **Math.floor(Math.random() * 1000001)** : Génère un nombre entier aléatoire entre 0 et 1.000.000 et assigne ce nombre aléatoire à la valeur du champ caché **`score`**.
 
-#### 2. Le formulaire sera soumiss avec la nouvelle valeur aléatoire du champ `score`.
+#### 2. Le formulaire sera soumis avec la nouvelle valeur aléatoire du champ `score`.
 
 ### Conclusion
 
