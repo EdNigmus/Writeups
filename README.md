@@ -12,13 +12,13 @@
         - `Protocol HTTP et méthode POST.`
         - `Langage JavaScript et HTML.`
         
-        -> Lien vers projet : 
+        -> Lien Github vers projet : 
         > https://github.com/EdNigmus/Writeups/blob/main/RootMe.md
 
         <br>
 
   - ### `No Limit Secu`
-       -> Cyber Guerre : https://www.nolimitsecu.fr/cyber-guerre/ <br>
+       #### Cyber Guerre : https://www.nolimitsecu.fr/cyber-guerre/ <br>
       - https://fr.wikipedia.org/wiki/Attaque_par_d%C3%A9ni_de_service
       - https://www.clubic.com/avira/dossier-415185-qu-est-ce-qu-un-malware-de-type-wiper.html<br>
       - https://fr.wikipedia.org/wiki/Petya <br>
@@ -26,9 +26,11 @@
   
       C'est Microsoft qui avertit le gouvernement Américain via un wiper -> https://fr.wikipedia.org/wiki/Wiper
   
-       -> Aspect juridiques : https://www.nolimitsecu.fr/pentest-aspects-juridiques/
+       #### Aspect juridiques : https://www.nolimitsecu.fr/pentest-aspects-juridiques/
+      - https://www.numerique.gouv.fr/actualites/le-bug-bounty-un-dispositif-innovant-pour-renforcer-la-securite-des-services-numeriques/ 
 
-       -> Cybersécurité dans le domaine spatial : https://www.nolimitsecu.fr/cybersecurite-dans-le-domaine-spatial/
+
+       #### Cybersécurité dans le domaine spatial : https://www.nolimitsecu.fr/cybersecurite-dans-le-domaine-spatial/
     
    
 
