@@ -26,15 +26,22 @@ Si l'on fait moins que le meilleur score **`999999`** on perd. Le but étant de 
 
 **Que se passe t'il en cliquant sur le bouton ?** 
 ... That is a question.
+#### HTTP
+> En cliquant sur le bouton cela va envoyer une requête (demande) d'un certain type au serveur web via le protocol **HTTP** (_hyperText Transfert Protocol_) qui traitera la demande et renverra le résulat dans un navigateur(client). C'est un protocole de communication  dit : client / serveur. <br>
 
-> En cliquant sur le bouton cela va envoyer une requête (demande) d'un certain type au serveur web via le protocol **HTTP** (_hyperText Transfert Protocol_) qui traitera la demande et renverra le résulat dans un navigateur. C'est un protocole dit : client / serveur.  <br>
+- _Il fonctionne sur le port 80 et utilise le protocole TCP comme couche de transport._ <br>
+- _HTTP est un protocole de la couche application dans le modèle OSI (couche 5.6.7)_
 
-> Le type ou la méthode ici est **POST**. La méthode POST écrit les paramètres URL dans la requête HTTP pour le serveur. Les paramètres ne sont donc pas visibles pour les utilisateurs contrairement à la méthode GET qui envoie en clair les données dans l'URL (_Uniform Ressource Locator_).
+    _Il existe la version HTTPS qui est la variante sécurissée par le chiffrement et l'hauthentification. Cette version utilise le port 443._
+
+#### POST
+> Le type ou la méthode ici est **POST**. La méthode POST est utilisée pour transmettre des données en vue d'un traitement à une ressource (le plus souvent un formulaire HTML). 
+- _Il existe aussi la méthode GET qui via une requête visible dans l'URL(_Uniform Ressource Locator_). permet par exemple d'accèder à d'autres pages d'un site._
 
 - https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/#c251633
  
 
-> L'URL est du mécanisme utilisé par les navigateurs pour accéder à toute ressource publiée sur le net. l’URL équivaut à l'adresse postale du facteur. Cette adresse est ainsi utilisée pour pouvoir accéder à une page d'un site internet telle que la page d'accueil, la page de contacts... 
+> L'URL est un mécanisme utilisé par les navigateurs pour accéder à toute ressource publiée sur le net. l’URL équivaut à l'adresse postale du facteur. Cette adresse est ainsi utilisée pour pouvoir accéder à une page d'un site internet telle que la page d'accueil, la page de contacts... 
 
     Elle peut-être composée :
     - Du protocol
@@ -145,8 +152,7 @@ La valeur du champ caché `input` est à -1.
 
 Donc la valeur aléatoire maximum étant 1 000 000 - la valeur du champ caché qui est `-1`. La valeur maximum sera 999 999.
 
-
-####  => Pour hacker.
+#### ![Img hacker](./imgs/Hacker32.png) Pour hacker le code. 
 - Pour gagner et hacker le jeu il faut modifier la valeur du coéfficient multiplicateur en rajoutant un zéro par exemple.
 
 ```html
