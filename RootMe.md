@@ -1,7 +1,22 @@
 # Root Me Challenge
 https://www.root-me.org/fr/Challenges/Web-Serveur/HTTP-POST
 
-<hr><br>
+<hr>
+
+## Objectif du challenge : 
+> ## → Trouver une façon de battre le meilleur score
+
+<br>
+
+### <a name="Synopsis">Synopsis</a> :  
+
+> Pour lancer le jeu on clique sur le bouton **`Give a try !`**.
+Si l'on fait moins que le meilleur score **`999999`** on perd. Le but étant de battre ce score...
+<br>
+
+![Jeu : départ](./imgs/ChalRootMe_1.jpg)
+
+<br>
 
 ## [ SOMMAIRE ]
 
@@ -15,30 +30,51 @@ https://www.root-me.org/fr/Challenges/Web-Serveur/HTTP-POST
 <hr>
 <br>
 
-## Objectif du challenge : **Trouver une façon de battre le meilleur score**
-  
-### <a name="Synopsis">Synopsis</a> :  
 
-> Pour lancer le jeu on clique sur le bouton **`Give a try !`**.
-Si l'on fait moins que le meilleur score **`999999`** on perd. Le but étant de battre ce score...
-
-![Jeu : départ](./imgs/ChalRootMe_1.jpg)
 
 **Que se passe t'il en cliquant sur le bouton ?** 
 ... That is a question.
-#### HTTP
+#### Protocol HTTP
 > En cliquant sur le bouton cela va envoyer une requête (demande) d'un certain type au serveur web via le protocol **HTTP** (_hyperText Transfert Protocol_) qui traitera la demande et renverra le résulat dans un navigateur(client). C'est un protocole de communication  dit : client / serveur. <br>
+>
+>- _Il fonctionne sur le port 80 et utilise le protocole TCP comme couche de transport._ <br>
+>- _HTTP est un protocole de la couche application dans le modèle OSI (couche 5.6.7)_
 
-- _Il fonctionne sur le port 80 et utilise le protocole TCP comme couche de transport._ <br>
-- _HTTP est un protocole de la couche application dans le modèle OSI (couche 5.6.7)_
+    _Il existe la version HTTPS qui est la variante sécurissée avec du chiffrement et l'hauthentification. Cette version utilise le port 443._
 
-    _Il existe la version HTTPS qui est la variante sécurissée par le chiffrement et l'hauthentification. Cette version utilise le port 443._
+#### MéthodePOST
+> Le type ou la méthode ici est **POST**. La méthode POST est utilisée pour transmettre des données au serveur pour crééer ou mettre à jour une ressource (le plus souvent un formulaire HTML(_HyperText Markup Language_)).
+>   
+> - **Paramètres** : Les paramètres sont envoyés dans le corps de de la requête HTTP et nnon dans l'URL. Cela permet d'envoyer des quantités de données plus importates.
+>
+>- **Limite de longueur** : Il n'y a pas de limite stricte de longueur pour les données envoyées, ou seulement si c'est déterminé par la configuration du serveur.
+>
+> - **Visibilié** : Les paramètres ne sont pas visibles dans l'URL. Cela la rend donc plus sécurisées... pour l'envoi de données sensibles.
+>
+> - **Cache** : Elle ne sont pas mises en cache par défaut.
+> 
+> - **Bookmark**s : Les requêtes POST ne peuvent pas être mises en favoris, car elle ne sont pas représentées par un URL.
 
-#### POST
-> Le type ou la méthode ici est **POST**. La méthode POST est utilisée pour transmettre des données en vue d'un traitement à une ressource (le plus souvent un formulaire HTML). 
-- _Il existe aussi la méthode GET qui via une requête visible dans l'URL(_Uniform Ressource Locator_). permet par exemple d'accèder à d'autres pages d'un site._
+<br> 
+
+>>> _Il existe aussi la méthode **GET** qui via une requête qui peut-être visible dans l'URL (Uniform Ressource Locator) du navigateur._ 
+>>    - _Elle permet par exemple d'accèder à d'autres pages d'un site._
+>>    - _Elle permet de récupérer des données d'un serveur web._
+>>
+>>  - _**Paramètres**_ : Les paramètres sont envoyés dans l'URL, après le point d'interrogation. <br>
+      Par exemple : http://example.com/page?param1=value1&param2=value2.-
+>>
+>>  - _**Limite de longueur** : Les URL ont une limite de longueur (environ 2048 caractères dans la plupart des         navigateurs), donc la quantité de données que vous pouvez envoyer est limitée._
+>>
+>>  - _**Visibilité** : Les paramètres de la requête sont visibles dans l'URL, ce qui les rend moins sécurisés pour l'envoi de données sensibles._
+>>
+>>  - _**Cache** : Les requêtes GET peuvent être mises en cache par les navigateurs, les proxies et les serveurs._
+>>
+>>  - _**Bookmark** : Les requêtes GET peuvent être mises en favoris ou partagées via l'URL, ce qui est pratique pour les recherches et les pages statiques._
+
   ```
-  Faire un teste avec l'inspecteur dans le navigateur sur votre page, en changeant la méthode "POST" EN "GET"; Observer ensuite votre URL.
+  Faire un teste avec l'inspecteur dans le navigateur sur votre page, en changeant la méthode "POST" EN "GET"; 
+  Observer ensuite votre URL.
   ```
 
 - https://www.ionos.fr/digitalguide/sites-internet/developpement-web/get-vs-post/#c251633
