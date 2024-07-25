@@ -188,9 +188,9 @@ document.getElementsByName('score')[0].value = Math.floor(Math.random() * 100000
 En cliquant sur le bouton **`Give a try !`** cela va générer un nombre aléatoire entre 0 et 1 000 000 et l'assigner au champ caché `score` avant de soumettre le formulaire. 
 La valeur du champ caché `input` est à -1.
 
-Donc la valeur aléatoire maximum étant 1 000 000 - la valeur du champ caché qui est `-1`. La valeur maximum sera 999 999.
+La valeur aléatoire maximum étant 1 000 000 - la valeur du champ caché qui est `-1`. La valeur maximum sera 999 999.
 
-#### ![Img hacker](./imgs/Hacker32.png) Pour hacker le code. 
+#### ![Img hacker](./imgs/Hacker64.png) Pour hacker le code. 
 - Pour gagner et hacker le jeu il faut modifier la valeur du coéfficient multiplicateur en rajoutant un zéro par exemple.
 
 ```html
