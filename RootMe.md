@@ -10,8 +10,8 @@ https://www.root-me.org/fr/Challenges/Web-Serveur/HTTP-POST
 
 ### <a name="Synopsis">Synopsis</a> :  
 
-> Pour lancer le jeu on clique sur le bouton **`Give a try !`**.
 Si l'on fait moins que le meilleur score **`999999`** on perd. Le but étant de battre ce score...
+<br>Pour lancer le jeu on clique sur le bouton **`Give a try !`**.
 <br>
 
 ![Jeu : départ](./imgs/ChalRootMe_1.jpg)
@@ -30,8 +30,6 @@ Si l'on fait moins que le meilleur score **`999999`** on perd. Le but étant de 
 <hr>
 <br>
 
-
-
 **Que se passe t'il en cliquant sur le bouton ?** 
 ... That is a question.
 #### Protocol HTTP
@@ -42,7 +40,7 @@ Si l'on fait moins que le meilleur score **`999999`** on perd. Le but étant de 
 
     _Il existe la version HTTPS qui est la variante sécurissée avec du chiffrement et l'hauthentification. Cette version utilise le port 443._
 
-#### MéthodePOST
+#### Méthode POST
 > Le type ou la méthode ici est **POST**. La méthode POST est utilisée pour transmettre des données au serveur pour crééer ou mettre à jour une ressource (le plus souvent un formulaire HTML(_HyperText Markup Language_)).
 >   
 > - **Paramètres** : Les paramètres sont envoyés dans le corps de de la requête HTTP et nnon dans l'URL. Cela permet d'envoyer des quantités de données plus importates.
@@ -58,8 +56,8 @@ Si l'on fait moins que le meilleur score **`999999`** on perd. Le but étant de 
 <br> 
 
 >>> _Il existe aussi la méthode **GET** qui via une requête qui peut-être visible dans l'URL (Uniform Ressource Locator) du navigateur._ 
->>    - _Elle permet par exemple d'accèder à d'autres pages d'un site._
->>    - _Elle permet de récupérer des données d'un serveur web._
+>>    - _Permet par exemple d'accèder à d'autres pages d'un site._
+>>    - _Permet de récupérer des données d'un serveur web._
 >>
 >>  - _**Paramètres**_ : Les paramètres sont envoyés dans l'URL, après le point d'interrogation. <br>
       Par exemple : http://example.com/page?param1=value1&param2=value2.-
@@ -83,6 +81,7 @@ Si l'on fait moins que le meilleur score **`999999`** on perd. Le but étant de 
 > L'URL est un mécanisme utilisé par les navigateurs pour accéder à toute ressource publiée sur le net. l’URL équivaut à l'adresse postale du facteur. Cette adresse est ainsi utilisée pour pouvoir accéder à une page d'un site internet telle que la page d'accueil, la page de contacts... 
 
     Elle peut-être composée :
+    -------------------------
     - Du protocol
     - D'un nom de domaine et sous-domaine
     - D'un chemin
