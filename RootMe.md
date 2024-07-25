@@ -36,9 +36,9 @@ Si l'on fait moins que le meilleur score **`999999`** on perd. Le but étant de 
 > En cliquant sur le bouton cela va envoyer une requête (demande) d'un certain type au serveur web via le protocol **HTTP** (_hyperText Transfert Protocol_) qui traitera la demande et renverra le résulat dans un navigateur(client). C'est un protocole de communication  dit : client / serveur. <br>
 >
 >- _Il fonctionne sur le port 80 et utilise le protocole TCP comme couche de transport._ <br>
->- _HTTP est un protocole de la couche application dans le modèle OSI (couche 5.6.7)_
+>- _HTTP est un protocole de la couche application dans le modèle OSI (couche 5.6.7)._
 
-    _Il existe la version HTTPS qui est la variante sécurissée avec du chiffrement et l'hauthentification. Cette version utilise le port 443._
+  Il existe la version HTTPS qui est la variante sécurissée avec du chiffrement. Cette version utilise le port 443.
 
 #### Méthode POST
 > Le type ou la méthode ici est **POST**. La méthode POST est utilisée pour transmettre des données au serveur pour crééer ou mettre à jour une ressource (le plus souvent un formulaire HTML(_HyperText Markup Language_)).
@@ -55,7 +55,7 @@ Si l'on fait moins que le meilleur score **`999999`** on perd. Le but étant de 
 
 <br> 
 
->>> _Il existe aussi la méthode **GET** qui via une requête qui peut-être visible dans l'URL (Uniform Ressource Locator) du navigateur._ 
+>>> Il existe aussi la méthode **GET** qui via une requête qui peut-être visible dans l'URL (Uniform Ressource Locator) du navigateur._ 
 >>    - _Permet par exemple d'accèder à d'autres pages d'un site._
 >>    - _Permet de récupérer des données d'un serveur web._
 >>
@@ -89,8 +89,11 @@ Si l'on fait moins que le meilleur score **`999999`** on perd. Le but étant de 
 
 - https://www.numacom.fr/blog/qu-est-ce-qu-une-url-definition-et-fonctionnement
 
+<br>
 
-**HTTP est avec HTML et les URL une des trois inventions fondamentales de Tim Berners-Lee pour créer le World Wide Web.**
+```
+HTTP est avec HTML et les URL une des trois inventions fondamentales de Tim Berners-Lee pour créer le World Wide Web.
+```
 
 <br>
 
