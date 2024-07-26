@@ -43,7 +43,7 @@ Si l'on fait moins que le meilleur score **`999999`** on perd. Le but étant de 
 #### Méthode POST
 > Le type ou la méthode ici est **POST**. La méthode POST est utilisée pour transmettre des données au serveur pour crééer ou mettre à jour une ressource (le plus souvent un formulaire HTML(_HyperText Markup Language_)).
 >   
-> - **Paramètres** : Les paramètres sont envoyés dans le corps de de la requête HTTP et nnon dans l'URL. Cela permet d'envoyer des quantités de données plus importates.
+> - **Paramètres** : Les paramètres sont envoyés dans le corps de de la requête HTTP et non dans l'URL. Cela permet d'envoyer des quantités de données plus importates.
 >
 >- **Limite de longueur** : Il n'y a pas de limite stricte de longueur pour les données envoyées, ou seulement si c'est déterminé par la configuration du serveur.
 >
